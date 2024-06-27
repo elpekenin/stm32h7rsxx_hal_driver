@@ -1,0 +1,17 @@
+.{
+    .name = "STM32H7RSxx HAL",
+    .version = "0.0.0-alpha",
+
+    .dependencies = .{
+        .cmsis_device_h7rs = .{
+            .url = "https://github.com/elpekenin/cmsis_device_h7rs/archive/refs/heads/zig.tar.gz",
+            .hash = "12204b711412b06c191faa68dad212db6d5f18391f6a04c96db0c070af401ffd55e4",
+        },
+        .cmsis_5 = .{
+            .url = "https://github.com/elpekenin/CMSIS_5/archive/refs/heads/zig.tar.gz",
+            .hash = "122089336468394afac0d99129657d900467a0df1b04cb60906fbee8cad8ab7d2f0a",
+        },
+    },
+
+    .paths = .{ "build.zig", "build.zig.zon", "Src", "Inc" }
+}
