@@ -9,7 +9,7 @@
         },
         .cmsis_5 = .{
             .url = "https://github.com/elpekenin/CMSIS_5/archive/refs/heads/zig.tar.gz",
-            .hash = "122089336468394afac0d99129657d900467a0df1b04cb60906fbee8cad8ab7d2f0a",
+            .hash = "12201d12ef535bbd07f9d5aecdb9d5a39e625fdff9a2c72d529d2eb2d1e6e38aa0d9",
         },
     },
 
