@@ -4,12 +4,12 @@
 
     .dependencies = .{
         .cmsis_device_h7rs = .{
-            .url = "https://github.com/elpekenin/cmsis_device_h7rs/archive/refs/heads/zig.tar.gz",
+            .url = "git+https://github.com/elpekenin/cmsis_device_h7rs#3dac53837cb6531fee2858fa12301d2512a000ae",
             .hash = "12204b711412b06c191faa68dad212db6d5f18391f6a04c96db0c070af401ffd55e4",
         },
         .cmsis_5 = .{
-            .url = "https://github.com/elpekenin/CMSIS_5/archive/refs/heads/zig.tar.gz",
-            .hash = "12201d12ef535bbd07f9d5aecdb9d5a39e625fdff9a2c72d529d2eb2d1e6e38aa0d9",
+            .url = "git+https://github.com/elpekenin/CMSIS_5#4b4bd9c4c7bccaf4af895132329f70ddba0ddfd6",
+            .hash = "1220877e57a33dd04c13a4a2707ca6c6513cef1c5fe84daff659b675b5f01f03e190",
         },
     },
 
